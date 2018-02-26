@@ -1,0 +1,29 @@
+body {
+	background-color: #00FFFF;
+}
+
+div {
+    border-style:solid;
+    border-width:5px;  
+    border-color: #910e00;
+}
+
+h1,h2,h3 {
+	color: #ff9900; font-family:"Lucida Console", Monaco, monospace;
+}
+
+#iniID {
+	text-decoration: underline; font-style: italic; font-weight: bold;
+}
+
+.iniClass{
+	 text-align: left; font-family: Courier New; 
+}
+
+th {
+	font-weight: bold; background-color: blue; color: white;
+}
+
+tr {
+	background-color: silver; color: blue;
+}

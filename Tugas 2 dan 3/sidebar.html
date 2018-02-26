@@ -1,0 +1,65 @@
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	<meta charset="utf-8">
+		<title>Tugas PWEB Minggu Ke-2</title>
+	</head>
+
+	<body>
+    <h1> Form Pendaftaran </h1>
+
+    <hr width="70%" align="left">
+    <p class="iniClass" id="iniID" >Isilah seluruh kolom registrasi dengan <br />sebenar-benarnya.</p>
+	
+	<body>
+	<form>
+		<label for="nama">Nama :</label>
+		<br>
+		<input type="text" name="nama_user">
+		<br>
+		<label for="npm">NPM  :</label>
+		<br>
+		<input type="text" name="npm_user">
+		<br>
+		<label for="kelas">Kelas :</label>
+		<br>
+		<input type="text" name="kelas_user">
+		<br>
+		<br>
+		<label>Jenis Kelamin :</label>
+		<input type="radio" name="jenis_kelamin" value = "0" checked> Laki-Laki
+		<input type="radio" name="jenis_kelamin" value = "1" >Perempuan
+		<br>
+		<br>
+		<form method=post>
+		<label>Pilih bahasa keahlian anda : </label> <br>
+		<input type=checkbox name=c1 checked>C<br>
+        <input type=checkbox name=c2 >Java<br>
+        <input type=checkbox name=c3 >Python<br>
+        <input type=checkbox name=c4 >VB<br>
+        <input type=checkbox name=c5 >Pascal<br>
+        <input type=checkbox name=c6 >C++<br>
+        <input type=checkbox name=c7 >Prolog<br>
+		</form>
+		<br>
+		<label>Tingkat : </label>
+		<select>
+			<option>Pilih --</option>
+			<option>Tingkat 2</option>
+			<option>Tingkat 3</option>
+			<option>Tingkat 4</option>
+		</select>
+		<br>
+		<br>
+		<label>Alasan</label>
+		<br>
+		<textarea cols="60" rows="6" ></textarea>
+		<br>
+		<br>
+		<input type="submit" name="submit" value="Submit">
+		<input type="submit" name="clear" value="Clear">
+	</form>
+	</body>
+</html>

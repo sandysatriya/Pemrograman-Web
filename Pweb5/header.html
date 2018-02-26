@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Form Pendaftaran</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+</head>
+
+<body style="background:#ccffff">
+<h1 style="color: black; font-family: verdana" align="center">FORM PENDAFTARAN ASISTEN GUNADARMA</h1>
+<br>
+<br>
+<br>
+    <p class="iniClass" id="iniID" >Isilah seluruh kolom registrasi dengan <br />sebenar-benarnya.</p>
+	
+<hr><br>
+ 
+ <form name=formulir onsubmit=pendaftaran() >
+ 		<label for="nama">Nama :</label>
+		<br>
+		<input type="text" name="nama_user">
+		<br>
+		<label for="npm">NPM  :</label>
+		<br>
+		<input type="text" name="npm_user">
+		<br>
+		<label for="kelas">Kelas :</label>
+		<br>
+		<input type="text" name="kelas_user">
+		<br>
+		<br>
+		<label>Jenis Kelamin :</label>
+		<input type="radio" name="jenis_kelamin" value = "0" checked> Laki-Laki
+		<input type="radio" name="jenis_kelamin" value = "1" >Perempuan
+		<br>
+		<br>
+		<label>Pilih bahasa keahlian anda : </label> <br>
+		<input type=checkbox name=c1 checked>C<br>
+        <input type=checkbox name=c2 >Java<br>
+        <input type=checkbox name=c3 >Python<br>
+        <input type=checkbox name=c4 >VB<br>
+        <input type=checkbox name=c5 >Pascal<br>
+        <input type=checkbox name=c6 >C++<br>
+        <input type=checkbox name=c7 >Prolog<br>
+		<br>
+		<label>Tingkat : </label>
+		<select>
+			<option >Pilih --</option>
+			<option >Tingkat 2</option>
+			<option >Tingkat 3</option>
+			<option >Tingkat 4</option>
+		</select>
+		<br>
+		<br>
+		<label>Alasan</label>
+		<br>
+		<textarea cols="60" rows="6" name="alasan_user" ></textarea>
+		<br>
+		<br>
+
+		<input type="submit" name="submit" value="Submit">
+		<input type="reset" name="clear" value="Clear">
+	</form>
+</body>
+</html>
